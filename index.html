@@ -61,14 +61,22 @@
 @media(max-width:900px){.hero{min-height:0}.hero-grid{display:flex;flex-direction:column;gap:0;width:100%;min-height:0}.hero-visual{order:0;width:100%;height:min(43svh,390px);min-height:260px;margin:0 auto -4px}.hero-person{height:100%;width:61%;object-fit:contain;object-position:center bottom}.hero-person--aeliton{left:2%;transform:scale(.94)}.hero-person--sara{right:2%;transform:scale(.98)}.hero-orbit{width:310px;height:310px;top:7%}.hero-copy{order:1;text-align:center;padding:4px 22px 42px;width:100%;max-width:760px}.hero h1{font-size:clamp(39px,8.8vw,60px);line-height:.98}.hero-sub{font-size:14px;margin:14px auto 18px;max-width:600px}.hero-copy .btn{width:100%;max-width:500px;min-height:56px;font-size:13px}.hero-note{justify-content:center;font-size:10px}.steps{grid-template-columns:1fr}.step{min-height:0}.cards{grid-template-columns:repeat(2,1fr)}.bonus-grid{grid-template-columns:1fr}.proof-grid{grid-template-columns:1fr}.story{grid-template-columns:1fr;gap:25px}.story img{max-height:430px;object-fit:cover}.audience{grid-template-columns:1fr}.access{grid-template-columns:1fr}.mentors{grid-template-columns:1fr}.mentor{grid-template-columns:36% 1fr}.section{padding:65px 0}}
 @media(max-width:560px){.wrap{width:calc(100% - 32px)}.brandbar img{width:145px}.hero-visual{height:min(40svh,330px);min-height:245px}.hero h1{font-size:clamp(37px,10.4vw,50px)}.hero-sub{font-size:13px;line-height:1.5}.hero-copy{padding:0 17px 35px}.eyebrow{font-size:10px}.section{padding:58px 0}h2{font-size:clamp(38px,11vw,52px)}.cards{grid-template-columns:1fr}.deliver{min-height:0}.mock{height:125px}.proof img{height:245px}.proof-copy{padding:18px}.proof-copy h3{font-size:25px}.pricebox{padding:26px 18px}.value-row{font-size:12px}.new-price{font-size:72px}.guarantee{grid-template-columns:1fr;text-align:center;padding:26px 20px}.seal{margin:auto}.mentor{grid-template-columns:1fr}.mentor img{height:320px;min-height:0;object-position:center 25%}.mentor div{padding:20px}.ticker-track span{font-size:22px}.sticky-cta .btn{font-size:12px}.closing{padding:72px 0}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+
+/* Ajustes desta revisão: logo integrada à hero e mockups 01/02 mais quadrados. */
+.hero-logo{display:block;width:clamp(125px,14vw,178px);max-height:92px;object-fit:contain;object-position:left center;margin:0 0 22px;filter:drop-shadow(0 5px 18px rgba(0,0,0,.45))}
+.hero-couple{mask-image:none;filter:drop-shadow(0 20px 34px rgba(0,0,0,.38));}
+.mock-laptop{width:76%;height:145px}
+.mock-netflix{height:128px}
+.mock-map{width:76%;height:138px}
+@media(max-width:900px){.hero-logo{position:absolute;z-index:6;top:-285px;left:50%;transform:translateX(-50%);width:145px;max-height:74px;object-position:center;margin:0;filter:drop-shadow(0 4px 16px rgba(0,0,0,.7))}.hero-copy{position:relative}.hero-couple{width:min(100%,480px);height:100%;object-fit:contain;object-position:center bottom}.mock-laptop{width:78%}.mock-map{width:78%}}
+@media(max-width:560px){.hero-logo{top:-258px;width:128px;max-height:65px}.hero-visual{height:min(43svh,350px);min-height:270px}.hero-couple{width:100%;max-width:390px}.mock-laptop{width:82%;height:132px}.mock-netflix{height:116px}.mock-map{width:82%;height:126px}}
 </style>
 </head>
 <body>
 <div class="topbar">UM PLANO PRÁTICO E DIÁRIO PARA COMEÇAR A VENDER IMÓVEIS</div>
-<div class="brandbar"><img src="assets/logo.png" alt="Venda Imóveis em 30 Dias"></div>
 <header class="hero" id="inicio"><div class="hero-bg"></div><div class="hero-grid">
  <div class="hero-visual"><div class="hero-orbit"></div><img class="hero-couple" src="assets/casal-hero.png" alt="Aeliton e Sara juntos"></div>
- <div class="hero-copy"><span class="eyebrow">Venda Imóveis em 30D</span><h1>Corretor de imóveis, você posta, manda mensagem… e o mês termina <span class="gold">sem uma venda?</span></h1><p class="hero-sub">O Venda Imóveis em 30D resolve isso com um plano prático e diário.</p><p class="muted" style="font-size:13px;margin-bottom:22px">Para o corretor que nunca vendeu, vendeu pouco ou vende de vez em quando, e não tem verba para anúncio.</p><div class="hero-note"><i></i> Acesso imediato após a confirmação da compra</div></div>
+ <div class="hero-copy"><img class="hero-logo" src="assets/logo.png" alt="Venda Imóveis em 30D"><h1>Corretor de imóveis, você posta, manda mensagem… e o mês termina <span class="gold">sem uma venda?</span></h1><p class="hero-sub">O Venda Imóveis em 30D resolve isso com um plano prático e diário.</p><p class="muted" style="font-size:13px;margin-bottom:22px">Para o corretor que nunca vendeu, vendeu pouco ou vende de vez em quando, e não tem verba para anúncio.</p><div class="hero-note"><i></i> Acesso imediato após a confirmação da compra</div></div>
 </div></header>
 <div class="ticker"><div class="ticker-track"><span>VENDA IMÓVEIS EM 30 DIAS</span><b>✦</b><span>SEM DEPENDER DE ANÚNCIOS</span><b>✦</b><span>PLANO PRÁTICO E DIÁRIO</span><b>✦</b><span>VENDA IMÓVEIS EM 30 DIAS</span><b>✦</b><span>SEM DEPENDER DE ANÚNCIOS</span><b>✦</b><span>PLANO PRÁTICO E DIÁRIO</span><b>✦</b></div></div>
 
@@ -109,10 +117,10 @@
 <section class="section dark grain"><div class="wrap"><div class="center"><span class="eyebrow reveal">Por dentro do treinamento</span><h2 class="reveal">O que você vai encontrar <span class="gold">dentro do Venda Imóveis em 30D</span></h2><div class="ornament"></div></div><div class="cards">
  <article class="deliver reveal"><div class="mock"><div class="mock-laptop"><div class="mock-netflix"><div class="mock-shelves"><i></i><i></i><i></i><i></i></div></div></div></div><h3>Entregável 01: Trilhas de Ensino — Aulas Gravadas</h3><p>Aulas gravadas mostrando na prática como vender, atender, contornar objeções, se tornar irresistível para o cliente e encontrar compradores de verdade. Você aprende o que fazer e como fazer para conduzir o cliente até a compra.</p></article>
  <article class="deliver reveal"><div class="mock"><div class="mock-map"><span class="map-route"></span><span class="map-pin"></span><span class="map-treasure">✕</span></div></div><h3>Entregável 02: O Mapa dos 30 Dias</h3><p>Chega de agir “quando dá”. Você acorda sabendo exatamente qual é o próximo passo, num plano prático e diário que faz a diferença entre trabalhar no escuro e trabalhar com direção.</p></article>
- <article class="deliver reveal"><div class="mock"><div class="mock-plate"><img src="assets/aeliton.png" alt=""><div class="plate-copy"><small>Venda Imóveis em 30D</small><strong>Sua Mina<br>de Ouro</strong><em>Encontre oportunidades na sua rede</em></div></div></div><h3>Entregável 03: Sua Mina de Ouro Escondida</h3><p>Seus primeiros clientes talvez estejam mais perto do que você imagina. Aqui você descobre onde eles estão e como vender e para de olhar para o lado errado.</p></article>
+ <article class="deliver reveal"><div class="mock"><div class="mock-book">MINA DE<br>OURO</div></div><h3>Entregável 03: Sua Mina de Ouro Escondida</h3><p>Seus primeiros clientes talvez estejam mais perto do que você imagina. Aqui você descobre onde eles estão e como vender e para de olhar para o lado errado.</p></article>
  <article class="deliver reveal"><div class="mock"><div class="mock-phone"><b>MENSAGENS</b><i></i><i></i><i></i></div></div><h3>Entregável 04: Abordagem que Abre Portas</h3><p>O medo de “incomodar” acaba quando você sabe o que dizer. Você manda a mensagem com segurança e recebe resposta.</p></article>
- <article class="deliver reveal"><div class="mock"><div class="mock-plate"><img src="assets/sara.png" alt=""><div class="plate-copy"><small>Posicionamento</small><strong>Presença<br>com Autoridade</strong><em>Seja lembrado. Seja escolhido.</em></div></div></div><h3>Entregável 05: Presença com Autoridade</h3><p>Você deixa de ser “o amigo que mexe com imóveis” e passa a ser o corretor que todo mundo lembra quando alguém fala em comprar casa.</p></article>
- <article class="deliver reveal"><div class="mock"><div class="mock-plate"><img src="assets/aeliton.png" alt=""><div class="plate-copy"><small>Relacionamento</small><strong>O Escudo<br>da Confiança</strong><em>Conduza com segurança</em></div></div></div><h3>Entregável 06: O Escudo da Confiança</h3><p>Muita gente já sofreu golpe e desconfia de corretor. Aqui você aprende a ser a pessoa em quem o cliente confia de primeira.</p></article>
+ <article class="deliver reveal"><div class="mock"><div class="mock-book">PRESENÇA<br>COM<br>AUTORIDADE</div></div><h3>Entregável 05: Presença com Autoridade</h3><p>Você deixa de ser “o amigo que mexe com imóveis” e passa a ser o corretor que todo mundo lembra quando alguém fala em comprar casa.</p></article>
+ <article class="deliver reveal"><div class="mock"><div class="mock-book">ESCUDO DA<br>CONFIANÇA</div></div><h3>Entregável 06: O Escudo da Confiança</h3><p>Muita gente já sofreu golpe e desconfia de corretor. Aqui você aprende a ser a pessoa em quem o cliente confia de primeira.</p></article>
  </div><div class="bonus-grid">
  <article class="bonus reveal"><div class="mock-plate"><img src="assets/aeliton.png" alt=""><div class="plate-copy"><small>Bônus 01</small><strong>Follow-up<br>sem ser chato</strong><em>Retome a conversa</em></div></div><div><h3>Bônus 1: Follow-up sem virar chato</h3><p><b>Destrói a objeção: “E se eu incomodar ou o cliente sumir?”</b><br>O cliente respondeu “vou pensar” e sumiu? Você volta à conversa na hora certa, do jeito certo, e ele volta a falar com você.</p></div></article>
  <article class="bonus reveal"><div class="mock-plate"><img src="assets/sara.png" alt=""><div class="plate-copy"><small>Bônus 02</small><strong>A Visita<br>Perfeita</strong><em>Do primeiro oi ao fechamento</em></div></div><div><h3>Bônus 2: A Visita Perfeita</h3><p><b>Destrói a objeção: “E se eu errar na visita e perder o cliente?”</b><br>A visita é o momento em que a venda se decide. Você vai preparado, firme e leve, do portão até o fechamento.</p></div></article>
@@ -173,4 +181,23 @@
  const params=new URLSearchParams(location.search);document.querySelectorAll('a[href="https://pay.kiwify.com.br/6cZiucq"]').forEach(a=>{const u=new URL(a.href);keys.forEach(k=>{const v=params.get(k);if(v)u.searchParams.set(k,v)});a.href=u.toString()});
 })();
 </script>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1760613011697933');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1760613011697933&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
 </body></html>
